@@ -1,13 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
  <head>
+  <!-- Meta information -->
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Integra Magna
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
+  <title>Integra Magna</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome Icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+
+  <!-- Google Font: Inter -->
   <style>
    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
     body {
@@ -15,139 +20,121 @@
     }
   </style>
  </head>
+
  <body class="bg-black text-white">
+  <!-- Header section with logo and navigation -->
   <header class="flex items-center justify-between px-6 py-4 border-b border-gray-700">
+   <!-- Logo with color dots -->
    <div class="flex items-center space-x-1">
-    <div class="w-4 h-4 rounded-full bg-green-600">
-    </div>
-    <div class="w-4 h-4 rounded-r-full bg-pink-400">
-    </div>
-    <div class="w-4 h-4 rounded-l-full bg-yellow-400">
-    </div>
+    <div class="w-4 h-4 rounded-full bg-green-600"></div>
+    <div class="w-4 h-4 rounded-r-full bg-pink-400"></div>
+    <div class="w-4 h-4 rounded-l-full bg-yellow-400"></div>
+    <!-- Brand name -->
     <div class="ml-2 text-white font-semibold text-sm leading-tight">
-     Integra
-     <br/>
-     Magna
+     Integra<br/>Magna
     </div>
    </div>
+
+   <!-- Navigation links (hidden on small screens) -->
    <nav class="hidden sm:flex space-x-8 text-xs font-semibold text-gray-300">
-    <a class="hover:text-white" href="#">
-     SERVICES
-    </a>
-    <a class="hover:text-white" href="#">
-     ABOUT US
-    </a>
-    <a class="hover:text-white" href="#">
-     CASES
-    </a>
+    <a class="hover:text-white" href="#">SERVICES</a>
+    <a class="hover:text-white" href="#">ABOUT US</a>
+    <a class="hover:text-white" href="#">CASES</a>
    </nav>
+
+   <!-- Sign Up button with icon (hidden on small screens) -->
    <div class="hidden sm:flex items-center space-x-2 text-xs font-semibold text-gray-300 cursor-pointer hover:text-white">
-    <span>
-     SIGN UP
-    </span>
+    <span>SIGN UP</span>
     <span class="border border-gray-300 rounded-full p-1">
-     <i class="fas fa-sign-in-alt">
-     </i>
+     <i class="fas fa-sign-in-alt"></i>
     </span>
    </div>
   </header>
+
+  <!-- Main content -->
   <main class="px-6 py-8 max-w-7xl mx-auto">
    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+    <!-- Left text section -->
     <div class="lg:w-1/2 space-y-4">
+     <!-- Main heading -->
      <h1 class="text-5xl font-light leading-tight max-w-md">
-      UNLIMITED
-      <br/>
-      PRETENTIOUS
-      <br/>
+      UNLIMITED<br/>PRETENTIOUS<br/>
       <span class="flex items-center space-x-2">
+       <!-- Avatars -->
        <span>
-        <img alt="Avatar of a woman with curly hair" class="inline-block rounded-full" height="32" src="https://storage.googleapis.com/a1aa/image/5267f8c3-5027-411f-391f-93e96dcb0ef4.jpg" width="32"/>
+        <img class="inline-block rounded-full" src="https://storage.googleapis.com/a1aa/image/5267f8c3-5027-411f-391f-93e96dcb0ef4.jpg" width="32" height="32" alt="Avatar"/>
        </span>
        <span>
-        <img alt="Avatar of a man with red hair and beard" class="inline-block rounded-full" height="32" src="https://storage.googleapis.com/a1aa/image/f061bc29-db60-4f68-950d-e25762f3bc7f.jpg" width="32"/>
+        <img class="inline-block rounded-full" src="https://storage.googleapis.com/a1aa/image/f061bc29-db60-4f68-950d-e25762f3bc7f.jpg" width="32" height="32" alt="Avatar"/>
        </span>
        <span>
-        <img alt="Avatar of a man with glasses and light hair" class="inline-block rounded-full" height="32" src="https://storage.googleapis.com/a1aa/image/532ab205-5dbc-4252-19b8-862ef00318cd.jpg" width="32"/>
+        <img class="inline-block rounded-full" src="https://storage.googleapis.com/a1aa/image/532ab205-5dbc-4252-19b8-862ef00318cd.jpg" width="32" height="32" alt="Avatar"/>
        </span>
-       <span>
-        IDEAS
-       </span>
+       <span>IDEAS</span>
       </span>
      </h1>
+     <!-- Subtext below heading -->
      <div class="border-t border-gray-700 pt-4 flex justify-between max-w-md text-xs text-gray-400 font-semibold">
-      <span>
-       OUR SOLUTIONS
-      </span>
-      <span>
-       WE PROVIDE THE FULL FUNNEL APPROACH
-      </span>
+      <span>OUR SOLUTIONS</span>
+      <span>WE PROVIDE THE FULL FUNNEL APPROACH</span>
      </div>
     </div>
+
+    <!-- Right image section -->
     <div class="lg:w-1/2 relative max-w-md rounded-tl-3xl rounded-br-3xl bg-purple-400">
-     <img alt="Portrait of a woman with short brown hair looking to the side on a purple background with rounded top-left and bottom-right corners" class="rounded-tl-3xl rounded-br-3xl w-full" height="280" src="https://storage.googleapis.com/a1aa/image/aaaea15d-88a7-414d-3d20-cbd2637b6377.jpg" width="400"/>
+     <!-- Image with rounded corners -->
+     <img class="rounded-tl-3xl rounded-br-3xl w-full" src="https://storage.googleapis.com/a1aa/image/aaaea15d-88a7-414d-3d20-cbd2637b6377.jpg" width="400" height="280" alt="Main Visual"/>
+     <!-- Overlay top-left text -->
      <div class="absolute top-4 left-4 text-xs font-semibold text-black">
-      YOUR
-      <br/>
-      BUSINESS
-      <br/>
-      BOOST
+      YOUR<br/>BUSINESS<br/>BOOST
      </div>
-     <button aria-label="Book Demo Call" class="absolute bottom-4 left-4 right-4 border border-black rounded-full bg-transparent text-black font-semibold py-2 px-4 flex items-center justify-between">
-      <span>
-       Book Demo Call
-      </span>
-      <i class="fas fa-arrow-right">
-      </i>
+     <!-- Book Demo Call button -->
+     <button class="absolute bottom-4 left-4 right-4 border border-black rounded-full bg-transparent text-black font-semibold py-2 px-4 flex items-center justify-between" aria-label="Book Demo Call">
+      <span>Book Demo Call</span>
+      <i class="fas fa-arrow-right"></i>
      </button>
+     <!-- Image pagination dots -->
      <div class="absolute top-4 right-4 flex space-x-1">
-      <div class="w-2 h-2 rounded-full bg-white">
-      </div>
-      <div class="w-2 h-2 rounded-full bg-gray-700">
-      </div>
+      <div class="w-2 h-2 rounded-full bg-white"></div>
+      <div class="w-2 h-2 rounded-full bg-gray-700"></div>
      </div>
     </div>
    </div>
+
+   <!-- Info boxes section -->
    <div class="mt-16 flex flex-col sm:flex-row sm:justify-between gap-6 max-w-4xl mx-auto">
+    <!-- Orange box -->
     <div class="bg-orange-600 rounded-xl p-6 flex flex-col justify-between w-full sm:w-1/3 min-h-[140px]">
-     <div class="text-xs font-semibold text-black mb-2">
-      UNIQUE
-      <br/>
-      BUSINESS SOLUTIONS
-     </div>
-     <div class="text-black text-3xl">
-      <i class="fas fa-project-diagram">
-      </i>
-     </div>
+     <div class="text-xs font-semibold text-black mb-2">UNIQUE<br/>BUSINESS SOLUTIONS</div>
+     <div class="text-black text-3xl"><i class="fas fa-project-diagram"></i></div>
     </div>
+
+    <!-- Gray box -->
     <div class="bg-gray-300 rounded-xl p-6 flex flex-col justify-between w-full sm:w-1/3 min-h-[140px] relative">
+     <!-- Top-left pagination dots -->
      <div class="absolute top-4 left-4 flex space-x-1">
-      <div class="w-2 h-2 rounded-full bg-black">
-      </div>
-      <div class="w-2 h-2 rounded-full bg-gray-400">
-      </div>
+      <div class="w-2 h-2 rounded-full bg-black"></div>
+      <div class="w-2 h-2 rounded-full bg-gray-400"></div>
      </div>
-     <div class="text-black text-xl font-bold mt-8">
-      OUR CASE STUDIES
-     </div>
+     <!-- Heading -->
+     <div class="text-black text-xl font-bold mt-8">OUR CASE STUDIES</div>
+     <!-- Top-right arrow icon -->
      <div class="absolute top-4 right-4 text-black text-2xl cursor-pointer">
-      <i class="fas fa-arrow-up-right">
-      </i>
+      <i class="fas fa-arrow-up-right"></i>
      </div>
     </div>
+
+    <!-- Yellow box -->
     <div class="bg-yellow-400 rounded-xl p-6 flex flex-col justify-between w-full sm:w-1/3 min-h-[140px]">
-     <div class="text-xs font-semibold text-black mb-2">
-      SUCCESSFUL
-      <br/>
-      PROJECTS
-     </div>
+     <div class="text-xs font-semibold text-black mb-2">SUCCESSFUL<br/>PROJECTS</div>
      <div class="text-black text-5xl font-light flex items-center">
       700
-      <span class="text-3xl font-bold ml-1">
-       +
-      </span>
+      <span class="text-3xl font-bold ml-1">+</span>
      </div>
     </div>
    </div>
+
+   <!-- Services buttons section -->
    <div class="mt-16 flex flex-col space-y-3 max-w-xs mx-auto">
     <button class="border border-gray-600 rounded-full py-1.5 px-4 text-xs text-gray-400 font-semibold hover:border-gray-400 hover:text-white">
      WEB ANALYTICS
